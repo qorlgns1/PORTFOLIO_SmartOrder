@@ -1,4 +1,4 @@
-# Smart Order 포트폴리오, [[URL]](http://211.200.100.168:9100/)
+# Smart Order 포트폴리오, [[URL]](http://1.225.77.93:9100/)
 
 프로젝트명 : Smart Order  
 
