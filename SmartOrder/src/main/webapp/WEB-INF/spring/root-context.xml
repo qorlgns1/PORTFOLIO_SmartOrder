@@ -52,11 +52,13 @@
 	
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName">
-			<value>com.mysql.jdbc.Driver</value>
+		<property name="driverClassName" >
+		<value>
+		net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+		</value>
 		</property>
 		<property name="url">
-			<value>jdbc:mysql://s12800.iptime.org:3306/smartorder?useUnicode=yes&amp;characterEncoding=UTF-8
+			<value>jdbc:log4jdbc:mysql://s12800.iptime.org:3306/smartorder?useUnicode=yes&amp;characterEncoding=UTF-8
 			</value>
 		</property>
 		<property name="username">
